@@ -18,7 +18,6 @@ interface Colleague {
     former: Colleague[]
   }
   
-
 /* (Optional) Change the names below to your friends. */
 
 const friend1: Friend = {
