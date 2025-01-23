@@ -1,4 +1,4 @@
-import {Friend, Colleague, ColleagueHistory } from './myTypes'
+import {Friend, Colleague, ColleagueHistory, EmailContact } from './myTypes'
 
   
 /* (Optional) Change the names below to your friends. */
@@ -52,4 +52,17 @@ const friend1: Friend = {
   };
   
   /* console.log(colleagues.current[0]); */
+
+  const email1: EmailContact = {
+    name: "Aaron Adams",
+    email: "aaronAdams@hot.com"
+
+  };
+
+  const email2: EmailContact = {
+    name: "Sharon Wing",
+    email: "sharonwing@yahoo.com"
+  };
+
+  export const emails : EmailContact[] = [email1, email2];
   
