@@ -31,7 +31,7 @@ const friend2 : Friend = {
     },
   };
   
-  const colleague2 = {
+  const colleague2: Colleague = {
     name: "Patti Burke",
     department: "Finance",
     contact: {
@@ -40,7 +40,7 @@ const friend2 : Friend = {
     },
   };
   
-  const colleague3 = {
+  const colleague3: Colleague = {
     name: "Dean Sullivan",
     department: "HR",
     contact: {
